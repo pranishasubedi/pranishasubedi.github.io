@@ -41,6 +41,16 @@ h1{
   font-family: 'Monoton';
   font-weight: bold;
 }
+.hide{
+  display: none;
+}
+h1:hover .hide{
+  display: block;
+  cursor: none;
+}
+h1:hover .show{
+  display: none;
+}
 .moving-bg:hover{
   cursor: url('lovecur.png'), default;
 }
