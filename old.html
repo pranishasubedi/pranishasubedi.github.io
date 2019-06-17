@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PRANSU</title>
+	<link rel="shortcut icon" href="https://graph.facebook.com/100006056411280/picture?type=small" />
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<script type="text/javascript" src="snowstorm.js"></script>
+	<script type="text/javascript">
+	snowStorm.targetElement = 'snow-target';
+	snowStorm.flakesMaxActive = 200;
+	snowStorm.snowColor = '#E5E8ED';
+	</script>
+</head>
+<body oncontextmenu='return false;' onkeydown='return false;'>
+	<div class="bg-image"></div>
+	<center><div class="moving-bg" id="snow-target"></div></center>
+	<div class="about-me">
+		<h1 class="animated jello infinite slower"><span class="show">Pranisha</span><span class="hide">Pransu</span></h1>
+		<div class="icons"><img src="https://graph.facebook.com/100006056411280/picture?type=large" class="animated bounce infinite slow"><a href="https://www.facebook.com/pranisha.subedi.7" target="_blank" class="animated fadeInLeft delay-2s"><i class="fab fa-facebook-square"></i></a><a href="https://www.instagram.com/prani_saa/" target="_blank" class="animated fadeInLeft delay-3s"><i class="fab fa-instagram"></i></a><a href="https://www.linkedin.com/in/pranisha-subedi-b7b411187/" target="_blank" class="animated fadeInLeft delay-4s"><i class="fab fa-linkedin"></i></a></div>
+	</div>
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script  src="js.js"></script>
+<audio autoplay loop style="display:none;">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+<script>
+	$('.bounce').mouseover(
+       function(){ $(this).removeClass('bounce') }
+	)
+	$('.bounce').mouseout(
+       function(){ $(this).addClass('bounce') }
+	)
+	$('.jello').mouseover(
+       function(){ $(this).removeClass('jello') }
+	)
+	$('.jello').mouseout(
+       function(){ $(this).addClass('jello') }
+	)
+</script>
+</body>
+</html>
+<!-- snow effect website for a snow girl by 1_2_   -->
